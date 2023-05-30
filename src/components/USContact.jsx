@@ -115,7 +115,11 @@ const AllContacts = () => {
                       <td>{item?.phone}</td>
                       <td>
                         <button
-                          className="btn btn-primary"
+                          className="btn"
+                          style={{
+                            backgroundColor: "#fff",
+                            borderColor: "#46139f",
+                          }}
                           onClick={() => {
                             setShow(true);
                             setRowData(item);

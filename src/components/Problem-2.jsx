@@ -11,7 +11,11 @@ const Problem2 = () => {
 
         <div className="d-flex justify-content-center gap-3">
           <button
-            className="btn btn-lg btn-outline-primary"
+            className="btn btn-lg"
+            style={{
+              backgroundColor: "#46139f",
+              color: "#fff",
+            }}
             type="button"
             onClick={() => {
               navigate("/all-contact");
@@ -20,7 +24,10 @@ const Problem2 = () => {
             All Contacts
           </button>
           <button
-            className="btn btn-lg btn-outline-warning"
+            className="btn btn-lg"
+            style={{
+              backgroundColor: "#ff7f50",
+            }}
             type="button"
             onClick={() => {
               navigate("/us-contact");
